@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="TM_BLACK+TITLE.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TM2020 Maniascript Reference
-   &#160;<span id="projectnumber">2021-06-03</span>
+   &#160;<span id="projectnumber">2021-06-09</span>
    </div>
    <div id="projectbrief">Up-to-date Maniascript Reference for Trackmania 2020</div>
   </td>
@@ -172,6 +172,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18ada10fbacc5b3ea137a8c228b2764f"><td class="memItemLeft" align="right" valign="top"><a id="a18ada10fbacc5b3ea137a8c228b2764f"></a>
 <a class="el" href="class_c_task_result___squad.html">CTaskResult_Squad</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Squad_Create</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_text.html">Text</a> SquadName, <a class="el" href="struct_integer.html">Integer</a> Size)</td></tr>
 <tr class="separator:a18ada10fbacc5b3ea137a8c228b2764f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a513204dd116af743c9dd80c72cab5"><td class="memItemLeft" align="right" valign="top"><a id="a31a513204dd116af743c9dd80c72cab5"></a>
+<a class="el" href="class_c_task_result___squad.html">CTaskResult_Squad</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Squad_Create</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_text.html">Text</a> SquadName, <a class="el" href="struct_integer.html">Integer</a> Size, <a class="el" href="struct_text.html">Text</a> Type)</td></tr>
+<tr class="separator:a31a513204dd116af743c9dd80c72cab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a910625fae9de512a0b31b0ecbce9e9"><td class="memItemLeft" align="right" valign="top"><a id="a8a910625fae9de512a0b31b0ecbce9e9"></a>
 <a class="el" href="class_c_task_result___squad.html">CTaskResult_Squad</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Squad_DeclineInvitation</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_text.html">Text</a> SquadId)</td></tr>
 <tr class="separator:a8a910625fae9de512a0b31b0ecbce9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,12 +199,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afcf64cab43573c319e3f9c66e916d8a2"><td class="memItemLeft" align="right" valign="top"><a id="afcf64cab43573c319e3f9c66e916d8a2"></a>
 <a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Subscription_GetEndTimeStamp</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_text.html">Text</a> SubscriptionName)</td></tr>
 <tr class="separator:afcf64cab43573c319e3f9c66e916d8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d7397f71daac6b90402a2673c46e4a0"><td class="memItemLeft" align="right" valign="top"><a id="a5d7397f71daac6b90402a2673c46e4a0"></a>
-<a class="el" href="class_c_task_result___string.html">CTaskResult_String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Tag_Get</b> (<a class="el" href="struct_ident.html">Ident</a> UserId)</td></tr>
-<tr class="separator:a5d7397f71daac6b90402a2673c46e4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a46c8509f971099734b13f0a86c752c"><td class="memItemLeft" align="right" valign="top"><a id="a7a46c8509f971099734b13f0a86c752c"></a>
-<a class="el" href="class_c_task_result.html">CTaskResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Tag_Set</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_text.html">Text</a> Tag)</td></tr>
-<tr class="separator:a7a46c8509f971099734b13f0a86c752c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b426984158b5e357f7d66bbbc545e48"><td class="memItemLeft" align="right" valign="top"><a id="a6b426984158b5e357f7d66bbbc545e48"></a>
+<a class="el" href="class_c_task_result___string_int.html">CTaskResult_StringInt</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Tag_GetClubTag</b> (<a class="el" href="struct_ident.html">Ident</a> UserId)</td></tr>
+<tr class="separator:a6b426984158b5e357f7d66bbbc545e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e753799a229cdc1a2fe50e44df14724"><td class="memItemLeft" align="right" valign="top"><a id="a0e753799a229cdc1a2fe50e44df14724"></a>
+<a class="el" href="class_c_task_result___club_tag_list.html">CTaskResult_ClubTagList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Tag_GetClubTagList</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="struct_text.html">Text</a> &gt; WebServicesUserIdList)</td></tr>
+<tr class="separator:a0e753799a229cdc1a2fe50e44df14724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a295fd7796db30a9a9674b6f956286774"><td class="memItemLeft" align="right" valign="top"><a id="a295fd7796db30a9a9674b6f956286774"></a>
+<a class="el" href="class_c_task_result.html">CTaskResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Tag_SetClubTag</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_text.html">Text</a> ClubTag)</td></tr>
+<tr class="separator:a295fd7796db30a9a9674b6f956286774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac9087afa61d38e666350d18c6d68d1b"><td class="memItemLeft" align="right" valign="top"><a id="aac9087afa61d38e666350d18c6d68d1b"></a>
 <a class="el" href="class_c_task_result___session___get.html">CTaskResult_Session_Get</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LiveSession_GetInfo</b> (<a class="el" href="struct_ident.html">Ident</a> UserId, <a class="el" href="struct_text.html">Text</a> SessionId)</td></tr>
 <tr class="separator:aac9087afa61d38e666350d18c6d68d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>

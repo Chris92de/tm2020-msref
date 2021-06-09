@@ -2,9 +2,12 @@ var class_c_map_editor_cursor =
 [
     [ "CanPlace", "class_c_map_editor_cursor.html#a6f94846914e25f75cf6313adcaf47d19", null ],
     [ "CanUse", "class_c_map_editor_cursor.html#a5831f53b7c14475bb783d11abd404a7d", null ],
+    [ "CurrentMacroblockHasAnimatedItem", "class_c_map_editor_cursor.html#a80d464d0aa6e74452cf7abd944572e41", null ],
+    [ "CurrentSelectionHasAnimatedItem", "class_c_map_editor_cursor.html#a6fe59bbb6141e3d70dbe0aec6d096c2e", null ],
     [ "DisableMouseDetection", "class_c_map_editor_cursor.html#a4190642f55a11efc6312589302362198", null ],
     [ "FollowCameraTarget", "class_c_map_editor_cursor.html#a7c2f4139c01a45479aa098625a1dcb6b", null ],
     [ "GetLock", "class_c_map_editor_cursor.html#aadc3b4939d6b997fc2bbb740a8b3c725", null ],
+    [ "IsCurrentItemAnimated", "class_c_map_editor_cursor.html#a15660b5013dab22253993e70eec6a81c", null ],
     [ "IsCustomRGBActivated", "class_c_map_editor_cursor.html#af6c30b036b04ee9c9ad6e786b6cfe1b5", null ],
     [ "Lower", "class_c_map_editor_cursor.html#a012a3178630631b89a4f318a7064829e", null ],
     [ "Move", "class_c_map_editor_cursor.html#a609685847b10e266112f5aaf48eef5bc", null ],

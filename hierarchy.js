@@ -3,11 +3,6 @@ var hierarchy =
     [ "Array< ElemType >", "struct_array.html", null ],
     [ "Array< CAccountTrophyGain >", "struct_array.html", null ],
     [ "Array< CAccountTrophyGainForHistory >", "struct_array.html", null ],
-    [ "Array< CAchievementsAchievement >", "struct_array.html", null ],
-    [ "Array< CAchievementsAchievementDesc >", "struct_array.html", null ],
-    [ "Array< CAchievementsEvent >", "struct_array.html", null ],
-    [ "Array< CAchievementsStat >", "struct_array.html", null ],
-    [ "Array< CAchievementsStatDesc >", "struct_array.html", null ],
     [ "Array< CActionInterface >", "struct_array.html", null ],
     [ "Array< CAnchorData >", "struct_array.html", null ],
     [ "Array< CAudioSource >", "struct_array.html", null ],
@@ -107,6 +102,8 @@ var hierarchy =
     [ "Array< Int3 >", "struct_array.html", null ],
     [ "Array< Integer >", "struct_array.html", null ],
     [ "Array< Real >", "struct_array.html", null ],
+    [ "Array< SWebServicesTaskResult_GhostDriver_Download_Ghost >", "struct_array.html", null ],
+    [ "Array< SWebServicesTaskResult_GhostDriver_Download_Team >", "struct_array.html", null ],
     [ "Array< Text >", "struct_array.html", null ],
     [ "Array< Vec2 >", "struct_array.html", null ],
     [ "Array< Vec3 >", "struct_array.html", null ],
@@ -123,11 +120,6 @@ var hierarchy =
         ] ]
       ] ],
       [ "CAccountTrophyLastYearSummary", "class_c_account_trophy_last_year_summary.html", null ],
-      [ "CAchievementsAchievement", "class_c_achievements_achievement.html", null ],
-      [ "CAchievementsAchievementDesc", "class_c_achievements_achievement_desc.html", null ],
-      [ "CAchievementsManager", "class_c_achievements_manager.html", null ],
-      [ "CAchievementsStat", "class_c_achievements_stat.html", null ],
-      [ "CAchievementsStatDesc", "class_c_achievements_stat_desc.html", null ],
       [ "CAction", "class_c_action.html", [
         [ "CSmAction", "class_c_sm_action.html", null ]
       ] ],
@@ -143,7 +135,6 @@ var hierarchy =
       [ "CBadge", "class_c_badge.html", null ],
       [ "CBadgeManager", "class_c_badge_manager.html", null ],
       [ "CBaseConstEvent", "class_c_base_const_event.html", [
-        [ "CAchievementsEvent", "class_c_achievements_event.html", null ],
         [ "CBaseEvent", "class_c_base_event.html", [
           [ "CSmModeEvent", "class_c_sm_mode_event.html", null ],
           [ "CUIConfigEvent", "class_c_u_i_config_event.html", null ]
@@ -295,6 +286,11 @@ var hierarchy =
         ] ],
         [ "CMlStation", "class_c_ml_station.html", null ]
       ] ],
+      [ "CMlScript_ReadOnly", "class_c_ml_script___read_only.html", [
+        [ "CMlScriptIngame_ReadOnly", "class_c_ml_script_ingame___read_only.html", [
+          [ "CSmArenaInterfaceManialinkScriptHandler_ReadOnly", "class_c_sm_arena_interface_manialink_script_handler___read_only.html", null ]
+        ] ]
+      ] ],
       [ "CMode", "class_c_mode.html", [
         [ "CSmMode", "class_c_sm_mode.html", null ]
       ] ],
@@ -373,6 +369,7 @@ var hierarchy =
         [ "CTaskResult_BuddiesChallengeRecord", "class_c_task_result___buddies_challenge_record.html", null ],
         [ "CTaskResult_BuddiesChallengeRecordsComparison", "class_c_task_result___buddies_challenge_records_comparison.html", null ],
         [ "CTaskResult_BuddyChallengeRecordsComparison", "class_c_task_result___buddy_challenge_records_comparison.html", null ],
+        [ "CTaskResult_ClubTagList", "class_c_task_result___club_tag_list.html", null ],
         [ "CTaskResult_Connect", "class_c_task_result___connect.html", null ],
         [ "CTaskResult_FileList", "class_c_task_result___file_list.html", null ],
         [ "CTaskResult_GameModeList", "class_c_task_result___game_mode_list.html", null ],
@@ -383,7 +380,7 @@ var hierarchy =
         [ "CTaskResult_RealLeaderBoardInfoList", "class_c_task_result___real_leader_board_info_list.html", null ],
         [ "CTaskResult_ReplayList", "class_c_task_result___replay_list.html", null ],
         [ "CTaskResult_Session_Get", "class_c_task_result___session___get.html", null ],
-        [ "CTaskResult_String", "class_c_task_result___string.html", null ],
+        [ "CTaskResult_StringInt", "class_c_task_result___string_int.html", null ],
         [ "CTaskResult_StringIntList", "class_c_task_result___string_int_list.html", null ],
         [ "CTaskResult_ZoneList", "class_c_task_result___zone_list.html", null ],
         [ "CWebServicesTaskResult_AccountTrophyGainHistory", "class_c_web_services_task_result___account_trophy_gain_history.html", [
@@ -398,6 +395,7 @@ var hierarchy =
         [ "CWebServicesTaskResult_FriendList", "class_c_web_services_task_result___friend_list.html", [
           [ "CTaskResult_FriendList", "class_c_task_result___friend_list.html", null ]
         ] ],
+        [ "CWebServicesTaskResult_GhostDriver_Download", "class_c_web_services_task_result___ghost_driver___download.html", null ],
         [ "CWebServicesTaskResult_MapRecordList", "class_c_web_services_task_result___map_record_list.html", [
           [ "CTaskResult_MapRecordList", "class_c_task_result___map_record_list.html", null ]
         ] ],
@@ -470,6 +468,8 @@ var hierarchy =
     [ "Int3", "struct_int3.html", null ],
     [ "Integer", "struct_integer.html", null ],
     [ "Real", "struct_real.html", null ],
+    [ "SWebServicesTaskResult_GhostDriver_Download_Ghost", "class_s_web_services_task_result___ghost_driver___download___ghost.html", null ],
+    [ "SWebServicesTaskResult_GhostDriver_Download_Team", "class_s_web_services_task_result___ghost_driver___download___team.html", null ],
     [ "Text", "struct_text.html", null ],
     [ "Vec2", "struct_vec2.html", null ],
     [ "Vec3", "struct_vec3.html", null ],

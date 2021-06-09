@@ -16,6 +16,9 @@ var class_c_mania_app_playground_event =
       [ "ReactorBoost", "class_c_mania_app_playground_event.html#a941213ba9000c1df6b94cb2e330e41dca5875432ecf7d9ae7fee3e360c3bb4ac2", null ],
       [ "Fragile", "class_c_mania_app_playground_event.html#a941213ba9000c1df6b94cb2e330e41dca2c4dceb111a7da0695a4b483b31ef803", null ],
       [ "ReactorBoost2", "class_c_mania_app_playground_event.html#a941213ba9000c1df6b94cb2e330e41dca0db2f7e733ea93271d988d9304ed3948", null ],
+      [ "Bouncy", "class_c_mania_app_playground_event.html#a941213ba9000c1df6b94cb2e330e41dca5af152df3efd4de039e1edaf56a52a54", null ],
+      [ "NoBrake", "class_c_mania_app_playground_event.html#a941213ba9000c1df6b94cb2e330e41dca44ab5966135bbc3bca05e19bd5a62022", null ],
+      [ "Cruise", "class_c_mania_app_playground_event.html#a941213ba9000c1df6b94cb2e330e41dca01a2939d0daa7843d9fdf6d139b36d4f", null ],
       [ "Null", "class_c_mania_app_playground_event.html#a941213ba9000c1df6b94cb2e330e41dca10076a65c234d112f8f48327674bc606", null ]
     ] ],
     [ "GameplayTurboRoulette", "class_c_mania_app_playground_event.html#a78763fe677b74def3701478feb2d0e99", [

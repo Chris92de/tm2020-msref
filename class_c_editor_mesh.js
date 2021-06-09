@@ -70,6 +70,7 @@ var class_c_editor_mesh =
       [ "Sector", "class_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca076cc7df9f79f9b7c49c96b9cc361b1a", null ],
       [ "Light", "class_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca6141fa42751bf7d7a0b0636404547801", null ],
       [ "LightModel", "class_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90caf7daed38b36263118e8a80f42fd3c4eb", null ],
+      [ "WaterShape", "class_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90caeab0339dc075e320b300a99cb2235826", null ],
       [ "None", "class_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca941bce807ffc936905d6561d5d43a260", null ]
     ] ],
     [ "EMaterialFilterCriterion", "class_c_editor_mesh.html#aedcd03d3f96e2cf34c83401cd5a19457", [
@@ -385,6 +386,7 @@ var class_c_editor_mesh =
     [ "SubdivideSmooth_NbSteps", "class_c_editor_mesh.html#a32c8d56827d21ed00a54dcec1d1e9ed1", null ],
     [ "Tmp_UseParts", "class_c_editor_mesh.html#af71c0595fbb06b7c28492f325f94d4d0", null ],
     [ "VertexCount", "class_c_editor_mesh.html#a22da10d1ffe96b0d05ccc0af69eea1ca", null ],
+    [ "VoxelSpaceAngle", "class_c_editor_mesh.html#a2ef19faccaf3aaeadd30479a9ccde6a7", null ],
     [ "VoxelSpaceCenter", "class_c_editor_mesh.html#ac080a3e8abf7cff2cd25c71827dcd656", null ],
     [ "VoxelSpaceIsInteractive", "class_c_editor_mesh.html#aae1d4f66cf0e23d860821083c657956c", null ],
     [ "VoxelSpaceStep", "class_c_editor_mesh.html#a155d4e7579cdd4f406b9516547f4a7c0", null ]

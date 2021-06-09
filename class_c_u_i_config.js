@@ -191,6 +191,7 @@ var class_c_u_i_config =
     [ "OverlayMute321Go", "class_c_u_i_config.html#aa96a71076da1fba9afec0fe0d76c6d00", null ],
     [ "OverlayScoreSummary", "class_c_u_i_config.html#a887f9aab7ebdb6482ee560eed4daeee8", null ],
     [ "OverrideMarkers", "class_c_u_i_config.html#af45ce5fffdffce1228ba92dc52bdb06b", null ],
+    [ "PlayerDisableFreeCam", "class_c_u_i_config.html#a1b45246c8d3936c60af47b1178310f49", null ],
     [ "ScoreSummary_Gauge1", "class_c_u_i_config.html#a4590ecafdc4b6689b2680ad1c072057e", null ],
     [ "ScoreSummary_Gauge2", "class_c_u_i_config.html#a577794820b3f7719c69164c1213b5eb2", null ],
     [ "ScoreSummary_MatchPoints1", "class_c_u_i_config.html#aa83a347c4412b3515d926c9fe7514e56", null ],

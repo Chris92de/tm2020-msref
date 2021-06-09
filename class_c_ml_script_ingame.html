@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="TM_BLACK+TITLE.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TM2020 Maniascript Reference
-   &#160;<span id="projectnumber">2021-06-03</span>
+   &#160;<span id="projectnumber">2021-06-09</span>
    </div>
    <div id="projectbrief">Up-to-date Maniascript Reference for Trackmania 2020</div>
   </td>
@@ -112,6 +112,16 @@ Inheritance diagram for CMlScriptIngame:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:ab88b76dc3b14c89d1b648db65586b0b6"><td class="memItemLeft" align="right" valign="top"><a id="ab88b76dc3b14c89d1b648db65586b0b6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EInGameMenuResult</b> { <br />
+&#160;&#160;<b>Resume</b>
+, <b>Quit</b>
+, <b>NormalMenu</b>
+, <b>AdvancedMenu</b>
+, <br />
+&#160;&#160;<b>ServerSettings</b>
+<br />
+ }</td></tr>
+<tr class="separator:ab88b76dc3b14c89d1b648db65586b0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f99561065dc005e6eeb89489e1d302"><td class="memItemLeft" align="right" valign="top"><a id="a03f99561065dc005e6eeb89489e1d302"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EUISound</b> { <br />
 &#160;&#160;<b>Default</b>
 , <b>Silence</b>
@@ -152,16 +162,6 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a03f99561065dc005e6eeb89489e1d302"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab88b76dc3b14c89d1b648db65586b0b6"><td class="memItemLeft" align="right" valign="top"><a id="ab88b76dc3b14c89d1b648db65586b0b6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EInGameMenuResult</b> { <br />
-&#160;&#160;<b>Resume</b>
-, <b>Quit</b>
-, <b>NormalMenu</b>
-, <b>AdvancedMenu</b>
-, <br />
-&#160;&#160;<b>ServerSettings</b>
-<br />
- }</td></tr>
-<tr class="separator:ab88b76dc3b14c89d1b648db65586b0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_c_ml_script"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_c_ml_script')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_c_ml_script.html">CMlScript</a></td></tr>
 <tr class="memitem:aed6dfd4a2b14d2308f90f63c43042fed inherit pub_types_class_c_ml_script"><td class="memItemLeft" align="right" valign="top"><a id="aed6dfd4a2b14d2308f90f63c43042fed"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>LinkType</b> { <br />
 &#160;&#160;<b>ExternalBrowser</b>
@@ -244,26 +244,26 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3020a2294847820887a0679ad8c0bb45"><td class="memItemLeft" align="right" valign="top"><a id="a3020a2294847820887a0679ad8c0bb45"></a>
-const <a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GameTime</b></td></tr>
-<tr class="separator:a3020a2294847820887a0679ad8c0bb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfcc15e1c8cb61ccc439bbb25cd0220e"><td class="memItemLeft" align="right" valign="top"><a id="adfcc15e1c8cb61ccc439bbb25cd0220e"></a>
+<a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GameTime</b></td></tr>
+<tr class="separator:adfcc15e1c8cb61ccc439bbb25cd0220e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac12864de3cd6767495ac0ca72e25bd6"><td class="memItemLeft" align="right" valign="top"><a id="aac12864de3cd6767495ac0ca72e25bd6"></a>
 const <a class="el" href="class_c_playground_client.html">CPlaygroundClient</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Playground</b></td></tr>
 <tr class="separator:aac12864de3cd6767495ac0ca72e25bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a507c1765dc7de5952ae02c3bcc1dd8b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_u_i_config.html">CUIConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#a507c1765dc7de5952ae02c3bcc1dd8b5">UI</a></td></tr>
-<tr class="separator:a507c1765dc7de5952ae02c3bcc1dd8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6074eac6d796989a1d52f0bfe1d3fa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_u_i_config.html">CUIConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#ac6074eac6d796989a1d52f0bfe1d3fa3">ClientUI</a></td></tr>
-<tr class="separator:ac6074eac6d796989a1d52f0bfe1d3fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbd9d0606086a5d652d242097c2ab1f2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#abbd9d0606086a5d652d242097c2ab1f2">IsSpectator</a></td></tr>
-<tr class="separator:abbd9d0606086a5d652d242097c2ab1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0a47375a5706e24f598af814190b5e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#ad0a47375a5706e24f598af814190b5e5">IsSpectatorClient</a></td></tr>
-<tr class="separator:ad0a47375a5706e24f598af814190b5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a524c0a591c24f11390b2da81101c0307"><td class="memItemLeft" align="right" valign="top"><a id="a524c0a591c24f11390b2da81101c0307"></a>
-const <a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UseClans</b></td></tr>
-<tr class="separator:a524c0a591c24f11390b2da81101c0307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa07795031d5060278f7b7878b3b84430"><td class="memItemLeft" align="right" valign="top"><a id="aa07795031d5060278f7b7878b3b84430"></a>
-const <a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UseForcedClans</b></td></tr>
-<tr class="separator:aa07795031d5060278f7b7878b3b84430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26167c897d8af52c0977393114997d48"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_c_u_i_config.html">CUIConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#a26167c897d8af52c0977393114997d48">UI</a></td></tr>
+<tr class="separator:a26167c897d8af52c0977393114997d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51b34416d45f8f5206fa311495ac7cd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_c_u_i_config.html">CUIConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#af51b34416d45f8f5206fa311495ac7cd">ClientUI</a></td></tr>
+<tr class="separator:af51b34416d45f8f5206fa311495ac7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ac25ea0c1bf7bf9564f4cb2afb0ab3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#a65ac25ea0c1bf7bf9564f4cb2afb0ab3">IsSpectator</a></td></tr>
+<tr class="separator:a65ac25ea0c1bf7bf9564f4cb2afb0ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25d2a9f119fcbf575515235ea93d2c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#ac25d2a9f119fcbf575515235ea93d2c0">IsSpectatorClient</a></td></tr>
+<tr class="separator:ac25d2a9f119fcbf575515235ea93d2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130d4e45def56042a8e394d030a0b612"><td class="memItemLeft" align="right" valign="top"><a id="a130d4e45def56042a8e394d030a0b612"></a>
+<a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UseClans</b></td></tr>
+<tr class="separator:a130d4e45def56042a8e394d030a0b612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa54f4c566c5a7acbb93dde5c841d8e"><td class="memItemLeft" align="right" valign="top"><a id="aaaa54f4c566c5a7acbb93dde5c841d8e"></a>
+<a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UseForcedClans</b></td></tr>
+<tr class="separator:aaaa54f4c566c5a7acbb93dde5c841d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82196456a9985dd363f456e5a3a27df1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_c_mania_app_playground_common.html">CManiaAppPlaygroundCommon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_ml_script_ingame.html#a82196456a9985dd363f456e5a3a27df1">ParentApp</a></td></tr>
 <tr class="separator:a82196456a9985dd363f456e5a3a27df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0763ed093b35d42f7a649a3bd1db4f6f"><td class="memItemLeft" align="right" valign="top"><a id="a0763ed093b35d42f7a649a3bd1db4f6f"></a>
@@ -272,36 +272,33 @@ const <a class="el" href="class_c_map.html">CMap</a>&#160;</td><td class="memIte
 <tr class="memitem:aed229af88441a60071959d5270c4b52c"><td class="memItemLeft" align="right" valign="top"><a id="aed229af88441a60071959d5270c4b52c"></a>
 const <a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_team.html">CTeam</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Teams</b></td></tr>
 <tr class="separator:aed229af88441a60071959d5270c4b52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a79e8658b5108f244f19f6d05e86e2"><td class="memItemLeft" align="right" valign="top"><a id="ae6a79e8658b5108f244f19f6d05e86e2"></a>
-const <a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsInGameMenuDisplayed</b></td></tr>
-<tr class="separator:ae6a79e8658b5108f244f19f6d05e86e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af61038ed7d54a4df0a9537a685882e"><td class="memItemLeft" align="right" valign="top"><a id="a1af61038ed7d54a4df0a9537a685882e"></a>
-const <a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerLogin</b></td></tr>
-<tr class="separator:a1af61038ed7d54a4df0a9537a685882e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348e5f4e77337dc0e22a4f0b1aa90860"><td class="memItemLeft" align="right" valign="top"><a id="a348e5f4e77337dc0e22a4f0b1aa90860"></a>
-const <a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerName</b></td></tr>
-<tr class="separator:a348e5f4e77337dc0e22a4f0b1aa90860"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab985518d90821a6ef750a9dca19faedf"><td class="memItemLeft" align="right" valign="top"><a id="ab985518d90821a6ef750a9dca19faedf"></a>
-const <a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerDesc</b></td></tr>
-<tr class="separator:ab985518d90821a6ef750a9dca19faedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a824ff94d9655e649e71979512ac5ad5b"><td class="memItemLeft" align="right" valign="top"><a id="a824ff94d9655e649e71979512ac5ad5b"></a>
-const <a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerJoinLink</b></td></tr>
-<tr class="separator:a824ff94d9655e649e71979512ac5ad5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a995bc4391be3f5ee766305d6904d3d09"><td class="memItemLeft" align="right" valign="top"><a id="a995bc4391be3f5ee766305d6904d3d09"></a>
-const <a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerModeName</b></td></tr>
-<tr class="separator:a995bc4391be3f5ee766305d6904d3d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ad1c6c0765b2f01e4ba4694b77a6549"><td class="memItemLeft" align="right" valign="top"><a id="a3ad1c6c0765b2f01e4ba4694b77a6549"></a>
-const <a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SplitScreenNum</b></td></tr>
-<tr class="separator:a3ad1c6c0765b2f01e4ba4694b77a6549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e714c07529b31a3a87c13f2e2394bf2"><td class="memItemLeft" align="right" valign="top"><a id="a1e714c07529b31a3a87c13f2e2394bf2"></a>
-const <a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SplitScreenCount</b></td></tr>
-<tr class="separator:a1e714c07529b31a3a87c13f2e2394bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ea924ca783ddb905bf623dc97e2e562"><td class="memItemLeft" align="right" valign="top"><a id="a8ea924ca783ddb905bf623dc97e2e562"></a>
-const <a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SplitScreenIsHorizontal</b></td></tr>
-<tr class="separator:a8ea924ca783ddb905bf623dc97e2e562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac779c70ccadbadbc81a2de595ba0418a"><td class="memItemLeft" align="right" valign="top"><a id="ac779c70ccadbadbc81a2de595ba0418a"></a>
-const <a class="el" href="class_c_achievements_manager.html">CAchievementsManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>AchievementsManager</b></td></tr>
-<tr class="separator:ac779c70ccadbadbc81a2de595ba0418a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a069ac66ba11aa79ec63f41295ecc8219"><td class="memItemLeft" align="right" valign="top"><a id="a069ac66ba11aa79ec63f41295ecc8219"></a>
+<a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsInGameMenuDisplayed</b></td></tr>
+<tr class="separator:a069ac66ba11aa79ec63f41295ecc8219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac135f2e2b7bdc948a70e702ad60e5fe7"><td class="memItemLeft" align="right" valign="top"><a id="ac135f2e2b7bdc948a70e702ad60e5fe7"></a>
+<a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerLogin</b></td></tr>
+<tr class="separator:ac135f2e2b7bdc948a70e702ad60e5fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af16b8367e63d598e7dab69d26f8a3d25"><td class="memItemLeft" align="right" valign="top"><a id="af16b8367e63d598e7dab69d26f8a3d25"></a>
+<a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerName</b></td></tr>
+<tr class="separator:af16b8367e63d598e7dab69d26f8a3d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc08d9c863f143eb0d091e417cf9e8db"><td class="memItemLeft" align="right" valign="top"><a id="acc08d9c863f143eb0d091e417cf9e8db"></a>
+<a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerDesc</b></td></tr>
+<tr class="separator:acc08d9c863f143eb0d091e417cf9e8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb22a0f59eead723ca732be441d92d3"><td class="memItemLeft" align="right" valign="top"><a id="a8cb22a0f59eead723ca732be441d92d3"></a>
+<a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerJoinLink</b></td></tr>
+<tr class="separator:a8cb22a0f59eead723ca732be441d92d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac51da94616304f2c48cd1baa39cd5d7"><td class="memItemLeft" align="right" valign="top"><a id="aac51da94616304f2c48cd1baa39cd5d7"></a>
+<a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentServerModeName</b></td></tr>
+<tr class="separator:aac51da94616304f2c48cd1baa39cd5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667cf9c878792257186abf9cd2ccde02"><td class="memItemLeft" align="right" valign="top"><a id="a667cf9c878792257186abf9cd2ccde02"></a>
+<a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SplitScreenNum</b></td></tr>
+<tr class="separator:a667cf9c878792257186abf9cd2ccde02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d3701a783f103e556d21aa96ee1f76"><td class="memItemLeft" align="right" valign="top"><a id="a49d3701a783f103e556d21aa96ee1f76"></a>
+<a class="el" href="struct_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SplitScreenCount</b></td></tr>
+<tr class="separator:a49d3701a783f103e556d21aa96ee1f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd586e7166277a09ca32091761f92de"><td class="memItemLeft" align="right" valign="top"><a id="a9dd586e7166277a09ca32091761f92de"></a>
+<a class="el" href="struct_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SplitScreenIsHorizontal</b></td></tr>
+<tr class="separator:a9dd586e7166277a09ca32091761f92de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_c_ml_script"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_c_ml_script')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_c_ml_script.html">CMlScript</a></td></tr>
 <tr class="memitem:a1460a9f7f2d93549012379fe5dd3c87a inherit pub_attribs_class_c_ml_script"><td class="memItemLeft" align="right" valign="top"><a id="a1460a9f7f2d93549012379fe5dd3c87a"></a>
 const <a class="el" href="class_c_ml_page.html">CMlPage</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Page</b></td></tr>
@@ -464,14 +461,14 @@ const <a class="el" href="struct_ident.html">Ident</a>&#160;</td><td class="memI
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac6074eac6d796989a1d52f0bfe1d3fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6074eac6d796989a1d52f0bfe1d3fa3">&#9670;&nbsp;</a></span>ClientUI</h2>
+<a id="af51b34416d45f8f5206fa311495ac7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51b34416d45f8f5206fa311495ac7cd">&#9670;&nbsp;</a></span>ClientUI</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_c_u_i_config.html">CUIConfig</a> CMlScriptIngame::ClientUI</td>
+          <td class="memname">const <a class="el" href="class_c_u_i_config.html">CUIConfig</a> CMlScriptIngame::ClientUI</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -479,14 +476,14 @@ const <a class="el" href="struct_ident.html">Ident</a>&#160;</td><td class="memI
 
 </div>
 </div>
-<a id="abbd9d0606086a5d652d242097c2ab1f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbd9d0606086a5d652d242097c2ab1f2">&#9670;&nbsp;</a></span>IsSpectator</h2>
+<a id="a65ac25ea0c1bf7bf9564f4cb2afb0ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65ac25ea0c1bf7bf9564f4cb2afb0ab3">&#9670;&nbsp;</a></span>IsSpectator</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_boolean.html">Boolean</a> CMlScriptIngame::IsSpectator</td>
+          <td class="memname"><a class="el" href="struct_boolean.html">Boolean</a> CMlScriptIngame::IsSpectator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -494,14 +491,14 @@ const <a class="el" href="struct_ident.html">Ident</a>&#160;</td><td class="memI
 
 </div>
 </div>
-<a id="ad0a47375a5706e24f598af814190b5e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0a47375a5706e24f598af814190b5e5">&#9670;&nbsp;</a></span>IsSpectatorClient</h2>
+<a id="ac25d2a9f119fcbf575515235ea93d2c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac25d2a9f119fcbf575515235ea93d2c0">&#9670;&nbsp;</a></span>IsSpectatorClient</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_boolean.html">Boolean</a> CMlScriptIngame::IsSpectatorClient</td>
+          <td class="memname"><a class="el" href="struct_boolean.html">Boolean</a> CMlScriptIngame::IsSpectatorClient</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -524,14 +521,14 @@ const <a class="el" href="struct_ident.html">Ident</a>&#160;</td><td class="memI
 
 </div>
 </div>
-<a id="a507c1765dc7de5952ae02c3bcc1dd8b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a507c1765dc7de5952ae02c3bcc1dd8b5">&#9670;&nbsp;</a></span>UI</h2>
+<a id="a26167c897d8af52c0977393114997d48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26167c897d8af52c0977393114997d48">&#9670;&nbsp;</a></span>UI</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_c_u_i_config.html">CUIConfig</a> CMlScriptIngame::UI</td>
+          <td class="memname">const <a class="el" href="class_c_u_i_config.html">CUIConfig</a> CMlScriptIngame::UI</td>
         </tr>
       </table>
 </div><div class="memdoc">

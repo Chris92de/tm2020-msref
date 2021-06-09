@@ -8,5 +8,6 @@ var class_c_squad =
     [ "MemberList", "class_c_squad.html#aa71ad48e401a4e6a69a12b9f08a93c82", null ],
     [ "Name", "class_c_squad.html#ada8482e4f6ce7cd55d23495e594ab575", null ],
     [ "Size", "class_c_squad.html#aba095a7cc46987ce184cd8f1d1f48361", null ],
+    [ "Type", "class_c_squad.html#a9afdb8dbdcbf3e9c5725e43694aca53e", null ],
     [ "UpdateTimeStamp", "class_c_squad.html#a7aa09c05c3f28ac510d93b254b458f5c", null ]
 ];

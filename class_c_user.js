@@ -33,6 +33,7 @@ var class_c_user =
     [ "AvatarUrl", "class_c_user.html#ad7dd30a4d93567717306a4b80d59e0a8", null ],
     [ "BroadcastTVLogin", "class_c_user.html#ae0ca71a65eabae726d5c33f07ad83ca2", null ],
     [ "ClubLink", "class_c_user.html#af9715aa01eaf27d180c4d1c75b436667", null ],
+    [ "ClubTag", "class_c_user.html#a7aab06faa61eed4afd57cefd29ac78a7", null ],
     [ "Color", "class_c_user.html#a0395644ce5f0509f39f69a7fe7079b42", null ],
     [ "CountryFlagUrl", "class_c_user.html#a1529db151c3e889c0e820bbd7dbb80bf", null ],
     [ "Description", "class_c_user.html#ac113bc5d4407cea9fdd911022d34a2cd", null ],

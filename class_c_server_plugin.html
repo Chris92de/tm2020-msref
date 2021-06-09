@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="TM_BLACK+TITLE.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TM2020 Maniascript Reference
-   &#160;<span id="projectnumber">2021-06-03</span>
+   &#160;<span id="projectnumber">2021-06-09</span>
    </div>
    <div id="projectbrief">Up-to-date Maniascript Reference for Trackmania 2020</div>
   </td>
@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32a6a1e301f698c0a7c9d083d98d8b86"><td class="memItemLeft" align="right" valign="top"><a id="a32a6a1e301f698c0a7c9d083d98d8b86"></a>
 <a class="el" href="class_c_client.html">CClient</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetClientFromWebServicesUserId</b> (<a class="el" href="struct_text.html">Text</a> WebServicesUserId)</td></tr>
 <tr class="separator:a32a6a1e301f698c0a7c9d083d98d8b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36f18cede7c24540bad4fe10497d4cf"><td class="memItemLeft" align="right" valign="top"><a id="ad36f18cede7c24540bad4fe10497d4cf"></a>
+<a class="el" href="class_c_player.html">CPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlaygroundPlayer</b> (<a class="el" href="struct_text.html">Text</a> Login)</td></tr>
+<tr class="separator:ad36f18cede7c24540bad4fe10497d4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a4acb4d8aee7bec6538ddeb312c27a"><td class="memItemLeft" align="right" valign="top"><a id="ac4a4acb4d8aee7bec6538ddeb312c27a"></a>
 <a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TweakTeamColorsToAvoidHueOverlap</b> ()</td></tr>
 <tr class="separator:ac4a4acb4d8aee7bec6538ddeb312c27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,6 +163,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65d4ea0f1e84599971727b2e37ec096b"><td class="memItemLeft" align="right" valign="top"><a id="a65d4ea0f1e84599971727b2e37ec096b"></a>
 <a class="el" href="struct_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Dbg_DumpDeclareForVariables</b> (<a class="el" href="class_c_nod.html">CNod</a> Nod, <a class="el" href="struct_boolean.html">Boolean</a> StatsOnly)</td></tr>
 <tr class="separator:a65d4ea0f1e84599971727b2e37ec096b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1cd68da2a42cfa682ddee00f9167b3"><td class="memItemLeft" align="right" valign="top"><a id="a5e1cd68da2a42cfa682ddee00f9167b3"></a>
+<a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TaskResult_Release</b> (<a class="el" href="struct_ident.html">Ident</a> TaskResultId)</td></tr>
+<tr class="separator:a5e1cd68da2a42cfa682ddee00f9167b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d475e1ac9e8b63fb15640b4c08fd1d8"><td class="memItemLeft" align="right" valign="top"><a id="a0d475e1ac9e8b63fb15640b4c08fd1d8"></a>
+<a class="el" href="class_c_task_result___ghost.html">CTaskResult_Ghost</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Ghost_Download</b> (<a class="el" href="struct_text.html">Text</a> Url)</td></tr>
+<tr class="separator:a0d475e1ac9e8b63fb15640b4c08fd1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5162a63ebb08c5fb30ae7bdcbee5e6d"><td class="memItemLeft" align="right" valign="top"><a id="ab5162a63ebb08c5fb30ae7bdcbee5e6d"></a>
+<a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GhostDriver_Playlist_Clear</b> (<a class="el" href="class_c_player.html">CPlayer</a> Player)</td></tr>
+<tr class="separator:ab5162a63ebb08c5fb30ae7bdcbee5e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b3599015a66e84a6b90e3d26905b0c"><td class="memItemLeft" align="right" valign="top"><a id="a66b3599015a66e84a6b90e3d26905b0c"></a>
+<a class="el" href="struct_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GhostDriver_Playlist_Add</b> (<a class="el" href="class_c_player.html">CPlayer</a> Player, <a class="el" href="class_c_ghost.html">CGhost</a> Ghost)</td></tr>
+<tr class="separator:a66b3599015a66e84a6b90e3d26905b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -242,6 +257,12 @@ const <a class="el" href="class_c_http_manager.html">CHttpManager</a>&#160;</td>
 <tr class="memitem:a779c38953e96f8d3ceb78f5686bf14e7"><td class="memItemLeft" align="right" valign="top"><a id="a779c38953e96f8d3ceb78f5686bf14e7"></a>
 const <a class="el" href="class_c_system_platform.html">CSystemPlatform</a>&#160;</td><td class="memItemRight" valign="bottom"><b>System</b></td></tr>
 <tr class="separator:a779c38953e96f8d3ceb78f5686bf14e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b9c8dd41c81a325a66825781a448c5"><td class="memItemLeft" align="right" valign="top"><a id="a83b9c8dd41c81a325a66825781a448c5"></a>
+const <a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_task_result.html">CTaskResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TaskResults</b></td></tr>
+<tr class="separator:a83b9c8dd41c81a325a66825781a448c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106a317076b4003808c0298fb9eb8615"><td class="memItemLeft" align="right" valign="top"><a id="a106a317076b4003808c0298fb9eb8615"></a>
+const <a class="el" href="struct_array.html">Array</a>&lt; <a class="el" href="class_c_ghost.html">CGhost</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Ghosts</b></td></tr>
+<tr class="separator:a106a317076b4003808c0298fb9eb8615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_class_c_nod"><td class="memItemLeft" align="right" valign="top"><a id="a4e8985f12f3e272263bfb85ef29196e4"></a>
 const <a class="el" href="struct_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td></tr>

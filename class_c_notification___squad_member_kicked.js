@@ -9,5 +9,6 @@ var class_c_notification___squad_member_kicked =
     [ "MemberDisplayName", "class_c_notification___squad_member_kicked.html#a3a2eef3b7696c52d4c621a4c8160d407", null ],
     [ "MemberWebServicesUserId", "class_c_notification___squad_member_kicked.html#ac19044c45fd8347ad9268136579a8d64", null ],
     [ "SquadId", "class_c_notification___squad_member_kicked.html#aa540577f78b4ce8e333d3ffad7bd59e8", null ],
+    [ "SquadType", "class_c_notification___squad_member_kicked.html#adcd0be6107b3fe7e92dbcac345080131", null ],
     [ "TimeStamp", "class_c_notification___squad_member_kicked.html#a4a5424591088f53d1ca48bcb055317e7", null ]
 ];

@@ -9,5 +9,6 @@ var class_c_notification___squad_invitation_added =
     [ "InviterDisplayName", "class_c_notification___squad_invitation_added.html#aa258e227c794f782371e1089aa2436fe", null ],
     [ "InviterWebServicesUserId", "class_c_notification___squad_invitation_added.html#a01560cf0fd171b45116d956a6e524cd8", null ],
     [ "SquadId", "class_c_notification___squad_invitation_added.html#a859febc978fa2b2a3f5c26886bd365db", null ],
+    [ "SquadType", "class_c_notification___squad_invitation_added.html#a9d66d77736512a647967b37783e662ed", null ],
     [ "TimeStamp", "class_c_notification___squad_invitation_added.html#a9a3e313eb53760728a1f656e29775a6f", null ]
 ];

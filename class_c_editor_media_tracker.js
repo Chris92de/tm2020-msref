@@ -33,7 +33,8 @@ var class_c_editor_media_tracker =
       [ "Interface", "class_c_editor_media_tracker.html#a45faebaf291a4017a99d24e504823c0ca932574fb9570954f97b02b3c47f3f098", null ],
       [ "Triangles2D", "class_c_editor_media_tracker.html#a45faebaf291a4017a99d24e504823c0cae7c4f9ea66d6695e731adc303a17fa1f", null ],
       [ "Triangles3D", "class_c_editor_media_tracker.html#a45faebaf291a4017a99d24e504823c0ca333f940f01443219a71f39348a092c38", null ],
-      [ "CameraOrbital", "class_c_editor_media_tracker.html#a45faebaf291a4017a99d24e504823c0ca06272d129de59227b64ca13fc3ae3ec9", null ]
+      [ "CameraOrbital", "class_c_editor_media_tracker.html#a45faebaf291a4017a99d24e504823c0ca06272d129de59227b64ca13fc3ae3ec9", null ],
+      [ "OpponentVisibility", "class_c_editor_media_tracker.html#a45faebaf291a4017a99d24e504823c0ca0fc72e3890f23d7ee293d638289ffba6", null ]
     ] ],
     [ "EMediaTrackerCopyType", "class_c_editor_media_tracker.html#a7fae3b15c7a32de87fb79601214687ff", [
       [ "None", "class_c_editor_media_tracker.html#acdcc3db20c8ba22789b8f5da12e78aa0a7da20a717ef684927f90e0304c854cd9", null ],

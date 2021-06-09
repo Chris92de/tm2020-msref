@@ -83,6 +83,8 @@ var class_c_user_v2_profile =
     [ "Interface_OppoLinearHue", "class_c_user_v2_profile.html#a6b1520356a0055645ed0a12fce65e049", null ],
     [ "Interface_PlayerShieldScale", "class_c_user_v2_profile.html#a5959e40c6da277eb83df1c74a43c19f0", null ],
     [ "Interface_ShowSpecialsFeedback", "class_c_user_v2_profile.html#a847ceda40ec54f9f0fd033c0a7da3d24", null ],
+    [ "Interface_UseAlternateCam1", "class_c_user_v2_profile.html#a3446c697614dc4ead549ad586cabf9bb", null ],
+    [ "Interface_UseAlternateCam2", "class_c_user_v2_profile.html#ace718b9a63589738b2be4d64ddbcc40e", null ],
     [ "Interface_UseOldInternalCam", "class_c_user_v2_profile.html#a1d039b3a16c17300873711ced0cc5af1", null ],
     [ "Online_AutoSaveReplay", "class_c_user_v2_profile.html#afaec292353fa7d63b38cbb0bec0f1272", null ],
     [ "Online_DefaultOpponentVisibility", "class_c_user_v2_profile.html#a04ca2b28c0ec35add54656988dc6414c", null ],

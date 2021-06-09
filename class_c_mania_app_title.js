@@ -10,7 +10,6 @@ var class_c_mania_app_title =
     [ "Menu_Profile", "class_c_mania_app_title.html#ad413ae4455fd35fdd8f0bdbd3fee293e", null ],
     [ "Menu_Quit", "class_c_mania_app_title.html#a0630cf0b8a58059975c479649e8d604d", null ],
     [ "Menu_Solo", "class_c_mania_app_title.html#a0b03c9b141a931960e06eebc5dfd1b91", null ],
-    [ "AchievementsManager", "class_c_mania_app_title.html#aa4fbf8e0f6264cf47fa6f11cbdade23f", null ],
     [ "Adverts_Enabled", "class_c_mania_app_title.html#adc7efa0e7e3e6f02d2d61b197b16ece5", null ],
     [ "Adverts_UsePersonnalData", "class_c_mania_app_title.html#a9771ead878e255019db8049b8982d08b", null ],
     [ "Authentication_ErrorCode", "class_c_mania_app_title.html#a6be36899aa576e36c9ab893fe66c54ff", null ],

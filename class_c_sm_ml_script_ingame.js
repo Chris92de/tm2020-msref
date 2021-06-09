@@ -1,6 +1,6 @@
 var class_c_sm_ml_script_ingame =
 [
-    [ "ArenaNow", "class_c_sm_ml_script_ingame.html#a660a00ccbce72cf24f463b16ec9fb085", null ],
+    [ "ArenaNow", "class_c_sm_ml_script_ingame.html#a8267a64b21b09a99c6614d1337573426", null ],
     [ "ClanScores", "class_c_sm_ml_script_ingame.html#acac3a54fc7849e797b26375b225d0503", null ],
     [ "GUIPlayer", "class_c_sm_ml_script_ingame.html#a01ca6df404d0b32d9f0da480eb3aa1a3", null ],
     [ "HideResumePlayingButton", "class_c_sm_ml_script_ingame.html#abf4098ae9e9fdfa765e675998b498645", null ],
@@ -8,7 +8,6 @@ var class_c_sm_ml_script_ingame =
     [ "MapBases", "class_c_sm_ml_script_ingame.html#a7bd6b5fa23323844b2a9fa64dcc843d8", null ],
     [ "MapLandmarks", "class_c_sm_ml_script_ingame.html#a16033cf854082b058422b7d9e56526c8", null ],
     [ "MapLandmarks_BotPath", "class_c_sm_ml_script_ingame.html#a3a39a6d21fbab061f1431d734c642343", null ],
-    [ "MapLandmarks_BotSpawn", "class_c_sm_ml_script_ingame.html#a12511c1a6ea2aca1222e5c223e363d23", null ],
     [ "MapLandmarks_Foundation", "class_c_sm_ml_script_ingame.html#a410ec0c260462115ea02b58e2866722d", null ],
     [ "MapLandmarks_Gate", "class_c_sm_ml_script_ingame.html#af5fc22fb02b25c629d4542df79540174", null ],
     [ "MapLandmarks_Gauge", "class_c_sm_ml_script_ingame.html#a11fa2413bd04c2fa10c3d6e8ccdf2942", null ],

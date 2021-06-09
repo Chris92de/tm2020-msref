@@ -9,5 +9,6 @@ var class_c_notification___squad_invitation_canceled =
     [ "InvitedDisplayName", "class_c_notification___squad_invitation_canceled.html#a44bacc0a88aac99d4b04bde9e3d9cbc7", null ],
     [ "InvitedWebServicesUserId", "class_c_notification___squad_invitation_canceled.html#a8cacace9ad8f31cf33d87151a93dc5fd", null ],
     [ "SquadId", "class_c_notification___squad_invitation_canceled.html#a358e6d4b87b84c4343f3cda6d1a0f677", null ],
+    [ "SquadType", "class_c_notification___squad_invitation_canceled.html#a3272221e87d759198d63d3bfd8789a2d", null ],
     [ "TimeStamp", "class_c_notification___squad_invitation_canceled.html#af0e49095a3df5984c81a70dd4713931d", null ]
 ];
